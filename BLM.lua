@@ -20,9 +20,9 @@ function get_sets()
 		back="Umbra Cape",legs="Nares Trews",feet="Chelona Boots +1"}
 	
 	sets.midcast_ElementalMagic = {main="Atinian Staff +1",sub="Zuuxowu Grip",ammo="Dosis Tathlum",
-		head="Hagondes Hat",neck="Eddy Necklace",ear1="Friomisi Earring",ear2="Novio Earring",
+		head="Buremte Hat",neck="Eddy Necklace",ear1="Friomisi Earring",ear2="Novio Earring",
 		body="Bokwus Robe",hands="Hagondes Cuffs",ring1="Icesoul Ring",ring2="Icesoul Ring",
-		back="Toro Cape",waist="Sekhmet corset",legs="Hagondes Pants",feet="Spaekona's Sabots +1"}
+		back="Bane Cape",waist="Sekhmet corset",legs="Hagondes Pants",feet="Spaekona's Sabots +1"}
 
 	sets.midcast_Stun = {main="Apamajas II",sub="Mephitis Grip",
 		head="Nahtirah Hat",neck="Aesir Torque",ear1="Lifestorm Earring",ear2="Psystorm Earring",

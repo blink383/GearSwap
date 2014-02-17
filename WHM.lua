@@ -53,6 +53,7 @@ function get_sets()
 	sets.midcast_Cure = {main="Tamaxchi",sub="Genbu's Shield",head="Theophany cap",neck="Orison Locket",
 			body="Orison Bliaud +2",hands="Bokwus Gloves",back="Tempered Cape",legs="Orison Pantaloons +2"}
 	
+	sets.midcast_Curaga = {}
 	sets.midcast_Stoneskin = {main="Kirin's Pole",neck="Stone Gorget",waist="Siegel Sash",legs="Shedir Seraweels"}
 	
 	sets.midcast_DebuffRemoval = {}
@@ -92,8 +93,10 @@ end
 -- --- MidCast ---
 function midcast(spell)
 	if spell.skill=='HealingMagic' then	
-		if S{"Cure*","Curaga*"}:contains(spell.name) then 
+		if S{"Cure*"}:contains(spell.name) then 
 			equip(sets.midcast_Cure)
+		elseif S{"Curaga*"}:contains(spell.name) then
+			equip(sets.midcast_Curaga)
 		elseif naSpells:contains(spell.name) then
 			equip(sets.midcast_DebuffRemoval)
 		elseif S{"Regen*"}:contains(spell.name) then

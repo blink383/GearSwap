@@ -113,6 +113,9 @@ function midcast(spell)
 		end
 	
 	elseif spell.english == 'Stoneskin' then
+		if spell.target.name == player.name then
+			send_command('@wait 3.8;cancel 37;')
+		end
 		equip(sets['midcast_Stoneskin'])
 	elseif spell.skill == 'EnhancingMagic' then
 		if spell.english == 'Sneak' and spell.target.name == player.name then

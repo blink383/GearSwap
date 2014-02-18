@@ -36,12 +36,12 @@ function get_sets()
 		back="Merciful Cape",waist="Cognition Belt",legs="Orvail Pants +1",feet="Weatherspoon Boots"}
 	
 	sets.midcast_BarSpells_Solace = {main="Beneficus",head="Orison Cap +2",body="Orison Bliaud +2",hands="Orison Mitts +2",
-		legs="Cleric's Pantaloons +2",feet="Orison Duckbills +2"}
+		legs="Piety Pantaloons",feet="Orison Duckbills +2"}
 	sets.midcast_Barspells_noSolace = set_combine(sets.midcast_BarSpells_Solace,{body="Blessed Briault"})
 
 	sets.midcast_EnhancingMagic = {main="Kirin's Pole",sub="Fulcio Grip",ammo="Incantor Stone",
 		head="Nahtirah Hat",neck="Orison Locket",ear1="Lifestorm Earring",ear2="Loquacious Earring",
-		back="Swith Cape",waist="Witful Belt",legs="Orvail Pants +1",feet="Chelona Boots +1"}
+		back="Swith Cape",waist="Witful Belt",legs="Piety Pantaloons",feet="Chelona Boots +1"}
 	
 	sets.midcast_MAB = {}
 	sets.midcast_Regen = {body="Cleric's Briault +2",hands="Orison Mitts +2",legs="Theophany pantaloons"}

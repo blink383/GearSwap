@@ -174,7 +174,12 @@ function self_command(command)
 		equip(sets.DT)
 	end
 	if command == 'Twilight' then
-		equp(sets.Twilight)
+		if sets.aftercast.TP = sets.TP.Engaged then
+		  sets.aftercast.TP = set_combine(sets.TP.Engaged,sets.Twilight)
+		  equp(sets.Twilight)
+		else 
+		  sets.aftercast.TP = sets.TP.Engaged
+		end
 	end
 	if command == 'TP' and sets.TP.Engaged == sets.TP.DD then
 		sets.TP.Engaged = sets.TP.Hybrid
